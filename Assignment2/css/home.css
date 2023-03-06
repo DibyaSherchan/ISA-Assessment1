@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#Home{
+    font-family: 'Gajraj One', cursive;
+}
+.container{
+    padding-left: 20px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.navBar{
+    position: fixed;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 110px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(51, 0, 0);
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: gray;
+}
+nav ul img{
+    width: 100px;
+    height: 100px;
+}
+nav form{
+    float: right;
+    margin-top: 15px;
+}
+nav input{
+    background: rgb(255, 247, 247);
+    color: rgb(9, 10, 12);
+    height: 10px;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+nav i{
+    float: right;
+    margin-left: 3px;    
+    margin-right: 3px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+nav .search-container{
+        float: right;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.main h1{
+    text-align: center;
+    font-size: 150px;
+    color: azure;
+    padding-top: 200px;
+}
+.main h1 span{
+    color: rgb(3, 51, 182);
+}
+#About{
+    padding-top: 355px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-main{
+    background-image: url(/img/background.webp);
+    background-size: cover;
+    background-position: center;
+}
+.about-main h1{
+    font-size: 50px;
+    padding: 10px 50px;
+    color: azure;
+}
+.about-main p{
+    text-align: justify;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: azure;
+}
+.about-main img{
+    width: 435px;
+    height: 605px;
+    padding: 10px 30px;
+}
+#Service{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/img/background.webp);
+    background-size: cover;
+    background-position: center;
+} 
+.service-about h1{
+    font-size: 50px;
+    padding: 10px 50px;
+    color: azure;
+}
+.service-about p{
+    text-align: justify;
+    padding: 10px 50px;
+    font-size: 30px;
+    color: azure;
+}
+.service-about img{
+    width: 435px;
+    height: 605px;
+    padding: 10px 30px;
+}
+#contact-section{
+    background-image: url(/img/background.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+}
+.contact-info{
+    max-width: 400px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.contact-form{
+    max-width: 700px;
+    margin-left: 300px;
+}
+.contact-form h1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-form .text-box{
+    background: rgb(54, 43, 43);
+    color: aliceblue;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contact-form textarea{
+    background: rgb(54, 43, 43);
+    color: aliceblue;
+    border: none;
+    width: 40%;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.contact-form button{
+    background-color: rgb(54, 43, 43);
+    color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+footer{
+    background-image: url(/img/background.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: aliceblue;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 18px;
+    font-size: 14px;
+    color: aliceblue;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.social i{
+    font-size: 20px;
+}
+.social a:hover i{
+    color: wheat;
+}
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    color: aliceblue;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    #Home{
+        font-family: 'Gajraj One', cursive;
+    }
+    .container{
+        padding-left: 20px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .navBar{
+        position: fixed;
+        background-color: aliceblue;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 10px 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(51, 0, 0);
+        font-size: 20px;
+    }
+    nav ul li a:hover{
+        color: gray;
+    }
+    nav ul img{
+        width: 100px;
+        height: 100px;
+    }
+    nav form{
+        float: right;
+        margin-top: 15px;
+    }
+    nav input{
+        background: rgb(255, 247, 247);
+        color: rgb(9, 10, 12);
+        height: 10px;
+        padding: 7px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    nav i{
+        float: right;
+        margin-left: 3px;    
+        margin-right: 3px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+      }
+    nav .search-container{
+            float: right;
+    }
+    .back-video{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .main h1{
+        text-align: center;
+        font-size: 150px;
+        color: azure;
+        padding-top: 200px;
+    }
+    .main h1 span{
+        color: rgb(3, 51, 182);
+    }
+    #About{
+        padding-top: 140px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .about-main{
+        background-image: url(/img/background.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    .about-main h1{
+        font-size: 50px;
+        text-align: center;
+        padding: 10px 50px;
+        color: azure;
+    }
+    .about-main p{
+        text-align: justify;
+        padding: 10px 50px;
+        font-size: 30px;
+        color: azure;
+    }
+    .about-main img{
+        width: 200px;
+        height: 305px;
+        padding: 20px 45px;
+    }
+    #Service{
+        font-family: 'Montserrat', sans-serif;
+        background-image: url(/img/background.webp);
+        background-size: cover;
+        background-position: center;
+    } 
+    .service-about h1{
+        text-align: center;
+        font-size: 50px;
+        padding: 10px 50px;
+        color: azure;
+    }
+    .service-about p{
+        text-align: justify;
+        padding: 10px 50px;
+        font-size: 30px;
+        color: azure;
+    }
+    .service-about img{
+        width: 200px;
+        height: 305px;
+        padding: 20px 45px;
+    }
+    #contact-section{
+        background-image: url(/img/background.webp);
+        background-size: cover;
+        background-position: center;
+        font-family: 'Montserrat', sans-serif;
+        color: aliceblue;
+        width: 100%;
+        display: flex;
+    }
+    .contact-info{
+        max-width: 600px;
+        line-height: 65px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .contact-info i{
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    .contact-form{
+        max-width: 700px;
+        margin-left: 50px;
+    }
+    .contact-form h1{
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .contact-form .text-box{
+        background: rgb(54, 43, 43);
+        color: aliceblue;
+        height: 50px;
+        padding: 12px;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .contact-form textarea{
+        background: rgb(54, 43, 43);
+        color: aliceblue;
+        border: none;
+        width: 40%;
+        height: 50px;
+        padding: 12px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .contact-form button{
+        background-color: rgb(54, 43, 43);
+        color: gray;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    footer{
+        background-image: url(/img/background.webp);
+        background-size: cover;
+        background-position: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content h3{
+        font-size: 30px;
+        text-transform: capitalize;
+        line-height: 3rem;
+        color: aliceblue;
+    }
+    .footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 18px;
+        font-size: 14px;
+        color: aliceblue;
+    }
+    .social{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 10px;
+    }
+    .social li{
+        margin: 0 10px;
+    }
+    .social a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .social i{
+        font-size: 20px;
+    }
+    .social a:hover i{
+        color: wheat;
+    }
+    .footer-bottom{
+        width: 100%;
+        padding: 20px 0;
+        color: aliceblue;
+        text-align: center;
+    }
+}
